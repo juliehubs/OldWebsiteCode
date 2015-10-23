@@ -1,0 +1,40 @@
+#hbeanme {
+  background: url(../img/beanme/beanmeheader.png) no-repeat center top;
+  padding-top: 5px;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 600px;
+  max-height: 600px;
+  width: 100%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+
+
+}
+
+#casetitle{
+  color:white;
+}
+
+#casedescription{
+  color: white;
+}
+
+#centeredHerobean{
+    margin-left: 25%;
+}
+
+
+
+
+.wrapper         {width:80%;height:100%;margin:0 auto;background:#CCC}
+.h_iframe        {position:relative;}
+.h_iframe .ratio {display:block;width:100%;height:auto;}
+.h_iframe iframe {position:absolute;top:0;left:0;width:100%; height:100%;}

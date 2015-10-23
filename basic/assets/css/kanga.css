@@ -1,0 +1,71 @@
+#hkanga {
+  background: url(../img/kanga/kangaheader.jpg) no-repeat center top;
+  padding-top: 5px;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 600px;
+  max-height: 600px;
+  width: 100%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+
+
+}
+
+#titleKanga{
+  padding-top: 320px;
+   color: black;
+
+}
+
+#casetitleK{
+  color:white;
+}
+
+#casedescriptionK{
+  color:white;
+}
+
+#projectProblem{
+  margin-bottom: 5%;
+}
+
+#titleSection{
+  margin-bottom: 2%;
+}
+
+#interviewing{
+  padding-top: 20px;
+  width: 100%;
+}
+#interview{
+  display:block;
+}
+#dataimg{
+  display:none;
+}
+#personaimg{
+  display:none;
+}
+#appflowimg{
+  display:none;
+}
+
+#iconsimg{
+  display:none;
+}
+
+#techimg{
+  display:none;
+}
+
+#annotate{
+  display:none;
+}

@@ -1,0 +1,434 @@
+/* Import fonts */
+
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url("prettyPhoto.css") screen;
+@import url("hoverex-all.css") screen;
+* {
+  margin: 0;
+  padding: 0px;
+  font-family: 'Lato', sans-serif;
+}
+body {
+  background: #fff;
+  margin: 0;
+  color: #5a5a5a;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+p {
+  padding: 0;
+  margin-bottom: 12px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: #666;
+  margin-top: 10px;
+}
+html, body {
+  height: 100%;
+}
+.centered {
+  text-align: center
+}
+.mt {
+  margin-top: 50px;
+}
+.mb {
+  margin-bottom: 50px;
+}
+.ptb {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+::-moz-selection {
+  color: #fff;
+  text-shadow: none;
+  background: #2B2E31;
+}
+::selection {
+  color: #fff;
+  text-shadow: none;
+  background: #2B2E31;
+}
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+a {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  -webkit-transition: background-color .4s linear, color .4s linear;
+  -moz-transition: background-color .4s linear, color .4s linear;
+  -o-transition: background-color .4s linear, color .4s linear;
+  -ms-transition: background-color .4s linear, color .4s linear;
+  transition: background-color .4s linear, color .4s linear;
+  color: #1abc9c;
+}
+a:hover, a:focus {
+  text-decoration: none;
+  color: #696E74;
+}
+.back-to-top {
+  background: none;
+  margin: 0;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 70px;
+  height: 60px;
+  top: 92%;
+  display: none;
+  text-decoration: none;
+  color: #FFB23C;
+  text-align: center;
+}
+.back-to-top i {
+  font-size: 60px;
+}
+.btn-conf {
+  border-radius: 50px;
+  margin-right: 15px;
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 14px 28px 13px 28px;
+}
+.btn-clear {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+}
+.btn-clear:hover {
+  background: white;
+  color: #2f2f2f;
+}
+.dmbutton:hover, .dmbutton:active, .dmbutton:focus {
+  color: #ffffff;
+  background-color: #222222;
+  border-color: #ffffff;
+}
+.dmbutton {
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  padding-top: 1.025rem;
+  padding-right: 2.25rem;
+  letter-spacing: 0.85px;
+  padding-bottom: 1.0875rem;
+  padding-left: 2.25rem;
+  font-size: 1.55rem;
+  cursor: pointer;
+  font-weight: normal;
+  line-height: normal;
+  margin: 0 0 1.25rem;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  -webkit-transition: background-color 300ms ease-out;
+  -moz-transition: background-color 300ms ease-out;
+  transition: background-color 300ms ease-out;
+  -webkit-appearance: none;
+  font-weight: normal !important;
+}
+
+/*NavBar */
+#navbar{
+   float: right;
+}
+#nav.navbar-default {
+  font-size: 18px;
+  background-color: rgba(248, 248, 248, 0);
+  border-bottom-width: 0px;
+  padding-bottom: 110px;
+  padding-top: 15px;
+  padding-right: 15px;
+}
+#nav.navbar-default .navbar-nav>li>a {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(248, 248, 248, 0);
+}
+#nav.navbar-default .navbar-nav>li>a:hover, #nav.navbar-default .navbar-nav>li>a:focus {
+  color: rgba(255, 178, 60, 1);
+  background-color: rgba(255, 255, 255, 0);
+}
+#nav.navbar-default .navbar-nav>.active>a, #nav.navbar-default .navbar-nav>.active>a:hover, #nav.navbar-default .navbar-nav>.active>a:focus {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, 0);
+}
+#nav.navbar-default .navbar-toggle {
+  border-color: #ffffff;
+}
+#nav.navbar-default .navbar-toggle:hover, #nav.navbar-default .navbar-toggle:focus {
+  background-color: #ffffff;
+}
+#nav.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+#nav.navbar-default .navbar-toggle:hover .icon-bar, #nav.navbar-default .navbar-toggle:focus .icon-bar {
+  background-color: #f8f8f8;
+}
+
+/* HEADER SECTION */
+
+
+
+.navbar-nav {
+    float: left;
+    margin: 0;
+    width: 100%;
+}
+
+
+#h {
+  background: url(../img/wood2.png) center top fixed;
+  padding-top: 5px;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 700px;
+  width: 100%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+}
+#h h3 {
+  margin-top: 10px;
+}
+#h i {
+  font-size: 50px;
+}
+#h .welcome {
+  padding-top: 100px;
+}
+.topicons {
+  width: 30%;
+  height: auto;
+}
+
+/* Portfolio */
+
+#portfolio {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #f5f5f5;
+}
+.portfolio {
+  padding: 0 !important;
+  margin: 0 !important;
+  display: block;
+}
+.portfolio-item h3 {
+  margin: -10px 0 10px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.tpl6 h3 {
+  color: #fff;
+  margin: 0;
+  padding: 40px 5px 0;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.tpl6 .dmbutton {
+  display: inline-block;
+  margin: 30px 5px 20px 5px;
+  font-size: 13px;
+}
+.tpl6 .bg {
+  height: 100%;
+  width: 100%;
+  background-color: #00b3fe;
+  background-color: rgba(0, 179, 254, .9);
+  text-align: center;
+}
+
+/* SKILLS */
+
+div#skills {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: #f5f5f5;
+}
+.skill img {
+  max-width: 140px;
+  max-height: 60px;
+  vertical-align: middle;
+}
+.skill .col-sm-2 {
+  height: 80px;
+  line-height: 80px;
+}
+#resume {
+  background: url(../img/wood2.png) no-repeat center top;
+  padding-top: 100px;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 375px;
+  width: 100%;
+  color: white;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+}
+#resume h3 {
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+/*Contact Me*/
+
+#contactme {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* FOOTER */
+
+#f {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-image: url(../img/wood2.png);
+  text-align: center;
+}
+#f h7 {
+  color: white;
+  position: relative;
+  text-align: center;
+}
+.btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
+  border: solid 2px #fff;
+  color: #18bc9c;
+  background: #fff;
+}
+#aboutme {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/*Center the text when below 991px*/
+
+@media (max-width:991px) {
+  #aboutme {
+    text-align: center;
+  }
+}
+#abouttop {
+  padding-top: 15px;
+  padding-bottom: 60px;
+}
+#aboutmeitems {
+  text-align: center;
+}
+
+/*EE Stuff*/
+
+#aboutfactEEga {
+  display: none;
+  color: #FFB23C;
+}
+#aboutfactEEsax {
+  display: none;
+  color: #FFB23C;
+}
+#aboutfactEEtravel {
+  display: none;
+  color: #FFB23C;
+}
+#aboutfactEEwhisk {
+  display: none;
+  color: #FFB23C;
+}
+
+/*404 CSS*/
+
+#text404 {
+  font-size: 60px;
+}
+#body404 {
+  text-align: center;
+}
+body#error {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/*To Top*/
+.cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  /* image replacement properties */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: rgba(232, 98, 86, 0.8) url(../img/logos/cd-top-arrow.svg) no-repeat center 50%;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
+}
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+  -moz-transition: opacity .3s 0s, visibility 0s 0s;
+  transition: opacity .3s 0s, visibility 0s 0s;
+}
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5;
+}
+.no-touch .cd-top:hover {
+  background-color: #e86256;
+  opacity: 1;
+}
+@media only screen and (min-width: 768px) {
+  .cd-top {
+    right: 20px;
+    bottom: 20px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .cd-top {
+    height: 60px;
+    width: 60px;
+    right: 30px;
+    bottom: 30px;
+  }
+}
+.back-to-top i {
+  font-size: 60px;
+}
+
+/*Second Nav*/
